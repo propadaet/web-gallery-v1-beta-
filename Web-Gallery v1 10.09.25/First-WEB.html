@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Моя первая галерея</title>
+    <link rel="stylesheet" href="style.css"> <!-- Добавляем эту строчку -->
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+        new WOW().init()
+    </script>
+</head>
+<body>
+    <h1 class="wow bounceInDown" data-wow-delay="0.3">Привет, это моя фотогалерея!</h1>
+    <p class="wow fadeInUp" data-wow-delay="0.5">Здесь будут мои лучшие фотографии</p>
+
+    <hr> <!-- Горизонтальная линяя для разделения -->
+
+    <!-- Добавим картинку -->
+    <img src="images/Grand Canyon.jpg" alt="Grand Canyon" title="Красивейшее место в США" class="wow bounceIn" data-wow-delay="0.7">
+    <p>Фото сделано во время путешествия</p>
+
+    <hr>
+
+    <!-- Создадим список моих увлечений -->
+    <h2 class="wow fadeInUp" data-wow-delay="0.9">Мои увлечения:</h2>
+    <ul class="wow slideInLeft" data-wow-delay="1.1">
+        <li>Фотография</li>
+        <li>Веб-разработка</li>
+        <li>Изучение нового</li>
+    </ul>
+
+    <hr>
+
+    <!-- Добавим ещё один список -->
+    <h2 class="wow fadeInUp" data-wow-delay="1.3">Любимые фоторафы:</h2>
+    <ol class="wow slideInRight" data-wow-delay="1.5">
+        <li>Анри Картье-Брессон</li>
+        <li>Ричард Аведон</li>
+        <li>Энсел Адамс</li>
+    </ol>
+</body>
+</html>
